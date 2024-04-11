@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "ja">
+    <head>
+        <meta charset="utf-8">
+        <title>勤怠管理</title>
+        <script src="main.js"></script>
+    </head>
+        <body>
+            <h1>打刻申請</h1>
+            <label for="person">＜申請者氏名＞</label>
+            <select id="persons" name="persons">
+                <option value="free">選択してください</option>
+                <option value="a">a</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+                <option value="d">d</option>
+            </select>
+            <div>
+                <input type="button" id="syukkin" value="出勤" onclick="location.href='syukkin.html'">
+                <input type="button" id="taikin" value="退勤" onclick="location.href='taikin.html'">
+            </div>
+        </body>
+</html>
